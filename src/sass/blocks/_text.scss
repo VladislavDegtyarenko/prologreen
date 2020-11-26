@@ -1,0 +1,87 @@
+.h1 {
+   font-family: "Play";
+   font-weight: 700;
+   font-size: 90px;
+   line-height: calc(100% + 4px);
+   color: $black-color;
+   margin-bottom: 30px;
+   &-main {
+      color: $main-color;
+      display: block;
+   }
+}
+
+.h2 {
+   font-family: "Play";
+   font-weight: 700;
+   font-size: 52px;
+   line-height: 72px;
+   color: $black-color;
+}
+
+.h3 {
+   font-family: "Open Sans";
+   font-style: normal;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 48px;
+   color: $black-color;
+}
+
+.text {
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   color: $black-color;
+}
+
+.text__link {
+   font-family: "Open Sans";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 24px;
+   color: $main-color;
+   position: relative;
+   transition: all 0.4s ease-out;
+   text-decoration: none;
+   display: block;
+   span {
+      display: inline-block;
+   }
+   span:nth-child(1) {
+      width: 0px;
+      height: 2px;
+      margin-bottom: 4px;
+      margin-right: 0px;
+      transition: all 0.4s ease-out;
+      background-color: $main-color;
+   }
+   span:nth-child(3) {
+      width: 22px;
+      height: 2px;
+      margin-bottom: 4px;
+      margin-left: 15px;
+      transition: all 0.4s ease-out;
+      background-color: $main-color;
+   }
+   &:hover {
+      color: #229430;
+      text-decoration: none;
+      transition: all 0.4s ease-out;
+      span:nth-child(1) {
+         width: 22px;
+         margin-right: 15px;
+         background-color: #229430;
+         transition: all 0.4s ease-out;
+      }
+      span:nth-child(3) {
+         width: 0px;
+         margin-left: 0px;
+         background-color: #229430;
+         transition: all 0.4s ease-out;
+      }
+   }
+}

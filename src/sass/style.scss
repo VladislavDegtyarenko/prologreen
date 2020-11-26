@@ -1,0 +1,31 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/bootstrap-grid.min";
+@import "libs/bootstrap.min";
+@import "libs/swiper-bundle.min.css";
+
+.container-fluid {
+   padding: 0 75px;
+}
+
+a:hover,
+a:active {
+   color: inherit;
+   text-decoration: none;
+}
+
+@import "blocks/fonts";
+@import "base/variables";
+@import "blocks/text";
+@import "blocks/buttons";
+@import "blocks/fields";
+@import "blocks/nav";
+@import "blocks/promo";
+@import "blocks/help";
+@import "blocks/detox";
+@import "blocks/why";
+@import "blocks/reviews";
+@import "blocks/trusted";
+@import "blocks/match";
+@import "blocks/footer";
+@import "blocks/find";
+@import "base/media";

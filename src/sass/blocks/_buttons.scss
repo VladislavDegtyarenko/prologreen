@@ -1,0 +1,29 @@
+.button {
+   width: 250px;
+   height: 48px;
+   border: solid 2px;
+   border-radius: 40px;
+   transition: 0.2s linear;
+   &:focus,
+   &:active {
+      outline: none;
+   }
+   &-primary {
+      background-color: $main-color;
+      border-color: $main-color;
+      color: #fff;
+      &:hover {
+         background-color: #229430;
+         border-color: #229430;
+      }
+   }
+   &-secondary {
+      background-color: transparent;
+      border-color: $main-color;
+      color: $main-color;
+      &:hover {
+         border-color: #229430;
+         color: #229430;
+      }
+   }
+}

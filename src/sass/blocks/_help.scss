@@ -1,0 +1,14 @@
+.help {
+   padding: 108px 20px 200px;
+   position: relative;
+   &__title {
+      color: #41b24f;
+   }
+   &__subtitle {
+      margin-top: 15px;
+      margin-bottom: 25px;
+   }
+   &__button {
+      width: 300px;
+   }
+}

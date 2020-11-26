@@ -1,0 +1,45 @@
+.match {
+   padding-top: 70px;
+   padding-bottom: 120px;
+   position: relative;
+   &__accordion_heading {
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 700;
+      color: $black-color;
+      &:hover {
+         text-decoration: none;
+         color: inherit;
+      }
+      &:active,
+      &:focus {
+         box-shadow: none;
+         outline: 0 none;
+      }
+   }
+   .card {
+      border: none;
+      background: transparent;
+      &:not(:last-child) {
+         border-bottom: solid 3px $main-color;
+      }
+   }
+   .card-header {
+      border: none;
+      background: transparent;
+      position: relative;
+   }
+
+   .card-header h2 button::after {
+      content: url("../icons/arrow.svg");
+      color: #333;
+      top: 12px;
+      right: 10px;
+      position: absolute;
+      font-family: "FontAwesome";
+   }
+
+   .card-header h2 button[aria-expanded="true"]::after {
+      transform: rotate(180deg);
+   }
+}
