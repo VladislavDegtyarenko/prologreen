@@ -10,14 +10,16 @@ Landing page front-end development for Prologreen - detox products for your body
 - **HTML** layout, W3C validated
 - responsive **CSS** layout across all devices
 - page speed load optimization
-- animate on scroll behaivor for leafs
-- accordion functionality using bootstrap
-- slider functionality using any js plugin
+- **animate on scroll** behaivor for leafs
+- **accordion** functionality using bootstrap
+- **slider** functionality using any js plugin
 
 ### Design
 Design was developed using Figma. [Click here](https://www.figma.com/file/hXoqPx5acLOM5xlKSoZQVd/Test-index) to see the mockup.
 <img width="486" alt="Screenshot 2021-08-12 at 00 41 39" src="https://user-images.githubusercontent.com/62521930/129107328-6d3da0a0-43cf-4520-98d9-6b1e8147875e.png">
 
+### PageSpeed Insights
+<img width="580" alt="Screenshot 2021-08-12 at 00 13 08" src="https://user-images.githubusercontent.com/62521930/129107479-7de69d06-6fa3-4e64-988a-4d679cd2d69e.png">
 
 
 
