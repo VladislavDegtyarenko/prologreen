@@ -1,6 +1,6 @@
 # prologreen
 
-<img width="180" alt="ocular" src="https://ocular.com.ua/wp-content/uploads/2021/03/logo.svg">
+<img width="180" alt="prologreen" src="https://vladislavdegtyarenko.github.io/prologreen/dist/img/logo.png">
 
 Landing page front-end development for Prologreen - detox products for your body and needs.
 
@@ -16,6 +16,8 @@ Landing page front-end development for Prologreen - detox products for your body
 
 ### Design
 Design was developed using Figma. [Click here](https://www.figma.com/file/hXoqPx5acLOM5xlKSoZQVd/Test-index) to see the mockup.
+<img width="486" alt="Screenshot 2021-08-12 at 00 41 39" src="https://user-images.githubusercontent.com/62521930/129107328-6d3da0a0-43cf-4520-98d9-6b1e8147875e.png">
+
 
 
 
